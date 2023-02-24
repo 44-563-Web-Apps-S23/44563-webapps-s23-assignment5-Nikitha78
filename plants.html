@@ -106,76 +106,109 @@
         </tbody>
 </table>
 <br>
+
+<label> Buttons:</label>
+<br>
+<button class="btn">R</button>
+<button class="btn">A</button>
+<button class="btn">V</button>
+<button class="btn">E</button>
+<button class="btn">L</button>
+<button class="btn">L</button>
+<br>
+<label>Button Groups</label>
+
+<div class="btn-toolbar">
+  <div class="btn-group" role="success" >
+  <button type="button" class="btn btn-success">R</button>
+  <button type="button" class="btn btn-success">A</button>
+  <button type="button" class="btn btn-success">V</button>
 </div>
-<label>BUTTONS :</label>
-    <div class="btn">
-      <button type="button" class="btn btn-outline-info">R</button>
-      <button type="button" class="btn btn-outline-info">A</button>
-      <button type="button" class="btn btn-outline-info">V</button>
-      <button type="button" class="btn btn-outline-info">E</button>
-      <button type="button" class="btn btn-outline-info">L</button>
-      <button type="button" class="btn btn-outline-info">L</button>
-    </div>
-<br>
-<label>BUTTON GROUPS:</label>
-<div class="container btn-toolbar" >
-  <div class="btn-group" role="group" aria-label="Imaged Insects">
-    <button type="button" class="btn">R</button>
-      <button type="button" class="btn">A</button>
-      <button type="button" class="btn">V</button>
-  </div>
-  <div class="btn-group"role="group" aria-label="Lettered Insects">
-    <button type="button" class="btn btn-warning">E</button>
-    <button type="button" class="btn btn-warning">L</button>
-  </div>
-  <div class="btn-group" role="group" aria-label="Remained Lettered Insects">
-    <button type="button" class="btn btn-danger">L</button>
-  </div>
+<div class="btn-group" role="warning" >
+  <button type="button" class="btn btn-warning">E</button>
+  <button type="button" class="btn btn-warning">L</button>
 </div>
-<br>
-<br>
-<div class="dropdown">
-     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-checked="false">click on drop dropdown
-
-     </button>
-     <ul  class=" dropdown-menu">
-        <li><a class="dropdown-item" href="basic.html"></li>
-        <li><a class="dropdown-item" href="advanced.html"></a></li>
-     </ul>
-</div>
-<br>
-<form>
-   
-  <div class="form-group">
-    <label for="exampleInputEmail" class="form-label">Email address</label>
-
-    <input type="email" class="form-control" id="exampleInputEmail1"arise-describedby="emailHelp">
-
-    <div id="emailHelp" class="form-text">we'll never share your email with anyone else</div>
-  </div>
-
-  <div class="form-group">
-     
-    <label for="exampleInputPassword1" class="form-label">Plant</label>
-
-    <input type="text" class="form-control" id="exampleInputPassword1"placeholder="Enter your Plant">
-
-  </div>
-
-  <div class="form-check">
-     
-    <input type="checkbox" class="form-check-input" id="examplecheck1">
-
-    <label class="form-check-label" for="exampleCheck1">Sign up for newsletters?</label>
-
-  </div>
-
-  <button type="submit" class="btn btn-primary">Submits</button>
-</form>
-<div>
   
-  </div>
+<div class="btn-group" role="danger" >
+  <button type="button" class="btn btn-danger">L</button>
 </div>
+</div>
+<br>
+<label>Dropdown</label>
+<div class="btn-group" role="group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Initial Letter
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="basic.html">Basic HTML Page</a></li>
+    <li><a class="dropdown-item" href="advanced.html">Advanced HTML Page</a></li>
+  </ul>
+</div>
+<br>
+<h3>Forms:</h3>
+<form>
+  <div class="form-group">
+  <label for="exampleInputEmail1">Email address</label>
+  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+  <label for="exampleInputPassword1">Plant</label>
+  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your Plant">
+  </div>
+  <div class="form-check">
+  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+  <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+      </form>
+      <br>
+
+      <h3> Bonus Cards: </h3>
+	  <div class="row">
+		<div class="col-sm-3">
+			<div class="card" style="width: 18rem;">
+			<img src="Red star cordyline.webp" class="card-img-top" alt="Red star cordyline">
+			<div class="card-body">
+			<h5 class="card-title">Red star cordyline</h5>
+			<p class="card-text">Red star cordyline s a compact plant, with evergreen long, thin, arching, bronze-red leaves. It's ideal for growing in pots and is well suited to growing in sunny border alongside other tropical plants such as cannas, or on the patio.</p>
+			<a href="Red star cordyline.webp" class="btn btn-success">Red star cordyline Image</a>
+			</div>
+			
+		</div>
+	</div>
+
+    <div class="col-sm-3">
+	<div class="card" style="width: 18rem;">
+	<img src="Abelia.webp" class="card-img-top" alt="Abelia">
+		<div class="card-body">
+			<h5 class="card-title">Abelia</h5>
+			<p class="card-text">Abelia is an ornamental shrub that is under-appreciated and underused in many parts of the country and is worth a second look.Abelia ‘Kaleidoscope’ is one of the easiest, most versatile plants for your garden.</p>
+			<a href="Abelia.webp" class="btn btn-danger">Abelia Image</a>
+		</div>
+		</div>
+
+    </div>
+
+    <div class="col-sm-3">
+
+        <div class="card" style="width: 18rem;">
+		<img src="Valerian.jpg" class="card-img-top" alt="Valerian">
+				<div class="card-body">
+				<h5 class="card-title">Valerian</h5>
+				<p class="card-text">Valerian can grow to be just over 6 feet tall and has a strong odor. It seems to act like a sedative in the brain and nervous system. Valerian has been used as a traditional medicine dating back to ancient Greek and Roman times.</p>
+				<a href="Valerian.jpg" class="btn btn-primary">Valerian Image</a>
+				</div>
+
+          </div>
+
+        </div>
+
+     </div>
+
 
 
 
